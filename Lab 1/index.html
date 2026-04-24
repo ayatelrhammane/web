@@ -1,9 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lab1</title>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+
+    <style>
+        body {
+            font-family: Cambria, serif;
+            background-color: #fff0f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #d63384;
+        }
+
+        h3 {
+            color: #ff69b4;
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        label {
+            color: #d63384;
+            font-weight: bold;
+            display: inline-block;
+            width: 130px;
+        }
+
+        input {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border: 3px solid pink;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Lab 1</h1>
+
+    <h1>Welcome to My Website</h1>
+    <h3>My Personal Profile</h3>
+
+    <div class="container">
+
+        <form>
+            <div class="form-group">
+                <label>First Name:</label>
+                <input type="text" value="Aya">
+            </div>
+
+            <div class="form-group">
+                <label>Last Name:</label>
+                <input type="text" value="Merkhofi">
+            </div>
+
+            <div class="form-group">
+                <label>Age:</label>
+                <input type="number" value="19">
+            </div>
+
+            <div class="form-group">
+                <label>Class:</label>
+                <input type="text" value="L2 Informatique">
+            </div>
+
+            <div class="form-group">
+                <label>University:</label>
+                <input type="text" value="University of El Oued">
+            </div>
+        </form>
+
+        <img src="Mewing.jpg" alt="Profile image">
+
+    </div>
+
 </body>
 </html>
